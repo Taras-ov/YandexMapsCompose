@@ -25,3 +25,20 @@ replay_pid*
 
 # Kotlin Gradle plugin data, see https://kotlinlang.org/docs/whatsnew20.html#new-directory-for-kotlin-data-in-gradle-projects
 .kotlin/
+
+prebuilds/fullsdk-linux
+prebuilds/fullsdk-darwin
+out
+*.iml
+.gradle
+/local.properties
+.idea/
+.DS_Store
+build/
+/captures
+.externalNativeBuild
+.cxx
+.kotlin
+
+# Ignoring the persistant lockfile until kotlin.js vulnerabilities are fixed
+# yarn.lock # but absent yarn.lock leads to inconsistent builds on CI, so let's keep it
