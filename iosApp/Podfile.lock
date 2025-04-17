@@ -1,0 +1,16 @@
+PODS:
+  - MyCocoaPod (1.0)
+
+DEPENDENCIES:
+  - MyCocoaPod (from `/Users/a1/Desktop/repositories/YandexMapsCompose/composeApp/MyCocoaPod.podspec`)
+
+EXTERNAL SOURCES:
+  MyCocoaPod:
+    :path: "/Users/a1/Desktop/repositories/YandexMapsCompose/composeApp/MyCocoaPod.podspec"
+
+SPEC CHECKSUMS:
+  MyCocoaPod: 6c253848012a533f909cf176cd8d077b4ad3ae89
+
+PODFILE CHECKSUM: 9e228163c5872d03d5f0f654ff29eeea286fb79a
+
+COCOAPODS: 1.16.2
