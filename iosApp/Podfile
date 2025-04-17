@@ -1,0 +1,4 @@
+target 'iosApp' do
+use_frameworks!
+   pod 'MyCocoaPod', :path => '/Users/a1/Desktop/repositories/YandexMapsCompose/composeApp/MyCocoaPod.podspec'
+end
