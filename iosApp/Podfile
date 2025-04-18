@@ -1,4 +1,6 @@
+platform :ios, '15.3'
+
 target 'iosApp' do
 use_frameworks!
-   pod 'MyCocoaPod', :path => '/Users/a1/Desktop/repositories/YandexMapsCompose/composeApp/MyCocoaPod.podspec'
+   pod 'ComposeApp', :path => '../composeApp'
 end

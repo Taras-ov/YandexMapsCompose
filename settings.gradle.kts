@@ -25,6 +25,10 @@ dependencyResolutionManagement {
             }
         }
         mavenCentral()
+
+        maven {
+            url = uri("https://artifacts.yandex-team.ru/repository/yandexmapkit-maven/")
+        }
     }
 }
 

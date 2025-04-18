@@ -7,69 +7,110 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		C8B3F643901D6B6256046E79D3327B27 /* MyCocoaPod */ = {
+		3DFC8D8368A4CA9CF03AD457958F2C48 /* YandexMapsMobile */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = A0AEF7D525DF3935759C66E098EB911E /* Build configuration list for PBXAggregateTarget "MyCocoaPod" */;
+			buildConfigurationList = CDCFC218FC9AB45D60898943F33A6F1F /* Build configuration list for PBXAggregateTarget "YandexMapsMobile" */;
 			buildPhases = (
-				6D5B535D06E71479AAE8763DA499ECA7 /* [CP-User] Build MyCocoaPod */,
-				ADFE31373F377FE6F3FB2D885237876E /* [CP] Copy dSYMs */,
+				50371732F227CDBF1C75C6946814F3ED /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
 			);
-			name = MyCocoaPod;
+			name = YandexMapsMobile;
+		};
+		6CA9E1B2A5CE64054BC84BF597D4C666 /* ComposeApp */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6AFD3B64C2ABA9DEA984B029A77165BC /* Build configuration list for PBXAggregateTarget "ComposeApp" */;
+			buildPhases = (
+				A364D369B0745E05460E3A93E7DB34E3 /* [CP-User] Build ComposeApp */,
+				A6C691ABBF9D3FBCDCAE55694B6892E6 /* [CP] Copy dSYMs */,
+			);
+			dependencies = (
+				857AF98F569096C74C2234C2DA6AECCC /* PBXTargetDependency */,
+			);
+			name = ComposeApp;
 		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		7D30A8D89765B1EE81158CD2D586449F /* Pods-iosApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DB2A5F5DADA1DDE45F36B1A2D6AC16 /* Pods-iosApp-dummy.m */; };
-		A223D7966EBFEEC93B30AE721850CCD8 /* Pods-iosApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 015E0D7EA7331961AB63E5AFECA86BB5 /* Pods-iosApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B8B213A370BC45C36D9C7C0404A1E8F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		175605A81B29BFAC0CEFBBB4A10EBE75 /* Pods-iosApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 015E0D7EA7331961AB63E5AFECA86BB5 /* Pods-iosApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D14347D433ED19198DF2F063B928D48 /* Pods-iosApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DB2A5F5DADA1DDE45F36B1A2D6AC16 /* Pods-iosApp-dummy.m */; };
+		FBD10C18EC44A64A1367566C53F90978 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A09630E73AAC571C27850D4FBAC3533D /* PBXContainerItemProxy */ = {
+		375BB6A5FF952CDFF46C1971FED502C1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C8B3F643901D6B6256046E79D3327B27;
-			remoteInfo = MyCocoaPod;
+			remoteGlobalIDString = 6CA9E1B2A5CE64054BC84BF597D4C666;
+			remoteInfo = ComposeApp;
+		};
+		43EC1FB1D710CEE801EAC64496684EA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DFC8D8368A4CA9CF03AD457958F2C48;
+			remoteInfo = YandexMapsMobile;
+		};
+		88DED93ECD9E1C459C718BD9650ACD59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DFC8D8368A4CA9CF03AD457958F2C48;
+			remoteInfo = YandexMapsMobile;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		015E0D7EA7331961AB63E5AFECA86BB5 /* Pods-iosApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iosApp-umbrella.h"; sourceTree = "<group>"; };
-		078606F7380EA728D38CEED57B88FE38 /* MyCocoaPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MyCocoaPod.debug.xcconfig; sourceTree = "<group>"; };
-		0F6A0D3AD4D610FCBB06D5966D531B3B /* compose-resources */ = {isa = PBXFileReference; includeInIndex = 1; name = "compose-resources"; path = "build/compose/cocoapods/compose-resources"; sourceTree = "<group>"; };
 		11C9B998CE0869936AE6BE69270DAAC9 /* Pods-iosApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iosApp.modulemap"; sourceTree = "<group>"; };
+		1D969966AAB2FCD799E313FFA51076AC /* ComposeApp-copy-dsyms.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ComposeApp-copy-dsyms.sh"; sourceTree = "<group>"; };
+		23E9BFADEEC44F9B792863A056F861E3 /* ComposeApp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ComposeApp.framework; path = build/cocoapods/framework/ComposeApp.framework; sourceTree = "<group>"; };
 		244FC2DAA936A0B07ACEFDC74E2D54B8 /* Pods-iosApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iosApp.release.xcconfig"; sourceTree = "<group>"; };
+		245EFC9C9577E6867BE60656B8FDFDF1 /* YandexMapsMobile-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "YandexMapsMobile-xcframeworks.sh"; sourceTree = "<group>"; };
 		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		54C5DFFF964B127F4724329BDD032D7B /* MyCocoaPod-copy-dsyms.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "MyCocoaPod-copy-dsyms.sh"; sourceTree = "<group>"; };
+		3F4566B159EA6BC0608B37DC0821F33D /* ComposeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ComposeApp.debug.xcconfig; sourceTree = "<group>"; };
 		55ABB06C8A1800962A74E007E7733796 /* Pods-iosApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iosApp-frameworks.sh"; sourceTree = "<group>"; };
 		6F3B5FED07117E377CFAC3D49B490F17 /* Pods-iosApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iosApp-resources.sh"; sourceTree = "<group>"; };
-		708F342A29B06925C7E18641122FEF39 /* MyCocoaPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MyCocoaPod.release.xcconfig; sourceTree = "<group>"; };
-		740ACC88D8C8A4757DBF8E1D6B31AAB8 /* MyFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MyFramework.framework; path = build/cocoapods/framework/MyFramework.framework; sourceTree = "<group>"; };
 		76A263267985B0185D85E24D40FCEE9A /* Pods-iosApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iosApp-Info.plist"; sourceTree = "<group>"; };
 		76D28488EA8CF5C697DFF07967A9960E /* Pods-iosApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iosApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		95A02452F292A6A7BEA23A8AD8499BDE /* ComposeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ComposeApp.release.xcconfig; sourceTree = "<group>"; };
+		99FE8EBC0126CBFA47A5675A4323DE8B /* ComposeApp.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ComposeApp.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F0E7621A9EA66E373AFE540F260F93A /* YandexMapsMobile.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = YandexMapsMobile.xcframework; sourceTree = "<group>"; };
 		B097DD7534E741D5C41838011D755842 /* Pods-iosApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-iosApp"; path = Pods_iosApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B23943FD08FDDBF63E2DA178067AAD62 /* YandexMapsMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YandexMapsMobile.debug.xcconfig; sourceTree = "<group>"; };
+		BA823FACBE81BE4F04A52E5FD9246F6D /* YandexMapsMobile.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = YandexMapsMobile.bundle; sourceTree = "<group>"; };
+		C090083EF35FF53240FE0ED09102E93C /* compose-resources */ = {isa = PBXFileReference; includeInIndex = 1; name = "compose-resources"; path = "build/compose/cocoapods/compose-resources"; sourceTree = "<group>"; };
+		C36E6C74DB85504F986A42A6621F7C15 /* YandexMapsMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YandexMapsMobile.release.xcconfig; sourceTree = "<group>"; };
 		E462E23B3674BF94EAB1504D506F2803 /* Pods-iosApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iosApp.debug.xcconfig"; sourceTree = "<group>"; };
 		E4C923318724794E3CC670804C2D6A6B /* Pods-iosApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iosApp-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E6DB2A5F5DADA1DDE45F36B1A2D6AC16 /* Pods-iosApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iosApp-dummy.m"; sourceTree = "<group>"; };
-		ECBE7E4043982CA0705F4DCD2911874C /* MyCocoaPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MyCocoaPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F49079463297C0FD9FEC5D0542270EDC /* Frameworks */ = {
+		E69DC57456752F94B0AB4EBCB3852EDF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8B213A370BC45C36D9C7C0404A1E8F3 /* Foundation.framework in Frameworks */,
+				FBD10C18EC44A64A1367566C53F90978 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E223BEBB9A09928C167BEDDA50EDAF2 /* YandexMapsMobile */ = {
+			isa = PBXGroup;
+			children = (
+				71AB21D0884B33A1E2153C9A8C4B729E /* Frameworks */,
+				B45CBF02FEE837C3D3CD661E646C08E4 /* Resources */,
+				E59EBE928B6577817C7BB211F65D8AA8 /* Support Files */,
+			);
+			name = YandexMapsMobile;
+			path = YandexMapsMobile;
+			sourceTree = "<group>";
+		};
 		1F86AA6785DF34AFD5A71790761717DE /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -78,20 +119,75 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8A9E324C6D26957B2ABF6FD999B775C2 /* Development Pods */ = {
+		2678CDD0062A53D244DCA63112A2E7F2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E34B6E95B9EB7C2B06F3503813493605 /* MyCocoaPod */,
+				1E223BEBB9A09928C167BEDDA50EDAF2 /* YandexMapsMobile */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		62444CC1A26D6B6E8F264A4E5F76AFB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23E9BFADEEC44F9B792863A056F861E3 /* ComposeApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		71AB21D0884B33A1E2153C9A8C4B729E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F0E7621A9EA66E373AFE540F260F93A /* YandexMapsMobile.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7489E574A21652EA71A6093C708DF458 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D969966AAB2FCD799E313FFA51076AC /* ComposeApp-copy-dsyms.sh */,
+				3F4566B159EA6BC0608B37DC0821F33D /* ComposeApp.debug.xcconfig */,
+				95A02452F292A6A7BEA23A8AD8499BDE /* ComposeApp.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../iosApp/Pods/Target Support Files/ComposeApp";
+			sourceTree = "<group>";
+		};
+		915360D6FE99CD425FE06D71AC3BC31F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1C1D8CB3A2228044245CE16559A1F33 /* ComposeApp */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		B9CA9F9FCEE56D35DB17F1043E132CC4 /* Pod */ = {
+		AA45C6A05BD87527B9BDF4395E69FB74 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				ECBE7E4043982CA0705F4DCD2911874C /* MyCocoaPod.podspec */,
+				99FE8EBC0126CBFA47A5675A4323DE8B /* ComposeApp.podspec */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		B1C1D8CB3A2228044245CE16559A1F33 /* ComposeApp */ = {
+			isa = PBXGroup;
+			children = (
+				C090083EF35FF53240FE0ED09102E93C /* compose-resources */,
+				62444CC1A26D6B6E8F264A4E5F76AFB8 /* Frameworks */,
+				AA45C6A05BD87527B9BDF4395E69FB74 /* Pod */,
+				7489E574A21652EA71A6093C708DF458 /* Support Files */,
+			);
+			name = ComposeApp;
+			path = ../../composeApp;
+			sourceTree = "<group>";
+		};
+		B45CBF02FEE837C3D3CD661E646C08E4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BA823FACBE81BE4F04A52E5FD9246F6D /* YandexMapsMobile.bundle */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		BA6B7BC2729F657E9D3682E55CA6E980 /* Pods-iosApp */ = {
@@ -112,34 +208,16 @@
 			path = "Target Support Files/Pods-iosApp";
 			sourceTree = "<group>";
 		};
-		BF4D6F251DFE72A67FF730DFB7DB48B0 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				54C5DFFF964B127F4724329BDD032D7B /* MyCocoaPod-copy-dsyms.sh */,
-				078606F7380EA728D38CEED57B88FE38 /* MyCocoaPod.debug.xcconfig */,
-				708F342A29B06925C7E18641122FEF39 /* MyCocoaPod.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../iosApp/Pods/Target Support Files/MyCocoaPod";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				8A9E324C6D26957B2ABF6FD999B775C2 /* Development Pods */,
+				915360D6FE99CD425FE06D71AC3BC31F /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				2678CDD0062A53D244DCA63112A2E7F2 /* Pods */,
 				1F86AA6785DF34AFD5A71790761717DE /* Products */,
 				D456857FB6E5BC3266BEC21401D60DB5 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D1DDCF1F6A8B4FDB0314FC7CE5214BDB /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				740ACC88D8C8A4757DBF8E1D6B31AAB8 /* MyFramework.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -158,18 +236,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		E34B6E95B9EB7C2B06F3503813493605 /* MyCocoaPod */ = {
-			isa = PBXGroup;
-			children = (
-				0F6A0D3AD4D610FCBB06D5966D531B3B /* compose-resources */,
-				D1DDCF1F6A8B4FDB0314FC7CE5214BDB /* Frameworks */,
-				B9CA9F9FCEE56D35DB17F1043E132CC4 /* Pod */,
-				BF4D6F251DFE72A67FF730DFB7DB48B0 /* Support Files */,
-			);
-			name = MyCocoaPod;
-			path = /Users/a1/Desktop/repositories/YandexMapsCompose/composeApp;
-			sourceTree = "<absolute>";
-		};
 		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -178,14 +244,25 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		E59EBE928B6577817C7BB211F65D8AA8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				245EFC9C9577E6867BE60656B8FDFDF1 /* YandexMapsMobile-xcframeworks.sh */,
+				B23943FD08FDDBF63E2DA178067AAD62 /* YandexMapsMobile.debug.xcconfig */,
+				C36E6C74DB85504F986A42A6621F7C15 /* YandexMapsMobile.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YandexMapsMobile";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		FA4D721C407EAA1E292CCFF89C74B55F /* Headers */ = {
+		D5E9EC46B846EFEC31C772736BFD4A34 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A223D7966EBFEEC93B30AE721850CCD8 /* Pods-iosApp-umbrella.h in Headers */,
+				175605A81B29BFAC0CEFBBB4A10EBE75 /* Pods-iosApp-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,17 +271,18 @@
 /* Begin PBXNativeTarget section */
 		ED39C638569286489CD697A6C8964146 /* Pods-iosApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5C87C28CF4ECCFF5776B7D5AC7C99431 /* Build configuration list for PBXNativeTarget "Pods-iosApp" */;
+			buildConfigurationList = 9985E398945BC2DFD6C8B1DD9EAAAD07 /* Build configuration list for PBXNativeTarget "Pods-iosApp" */;
 			buildPhases = (
-				FA4D721C407EAA1E292CCFF89C74B55F /* Headers */,
-				C7D1D20637F1DA89D69C6261453D652D /* Sources */,
-				F49079463297C0FD9FEC5D0542270EDC /* Frameworks */,
-				54279FFD9F7DC03C5092FDAAF4F1D8D9 /* Resources */,
+				D5E9EC46B846EFEC31C772736BFD4A34 /* Headers */,
+				8DCD6F0FABBAD16C039A66DAB1163829 /* Sources */,
+				E69DC57456752F94B0AB4EBCB3852EDF /* Frameworks */,
+				D8301412B78658156B91AFA1B772E476 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				684C0B310518D81BF5E33B200459BEFB /* PBXTargetDependency */,
+				7C4985CFE1CDA0C7B0518AC81E3875E7 /* PBXTargetDependency */,
+				DA1CB384DD63E317B5311AE1FB051A06 /* PBXTargetDependency */,
 			);
 			name = "Pods-iosApp";
 			productName = Pods_iosApp;
@@ -235,14 +313,15 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C8B3F643901D6B6256046E79D3327B27 /* MyCocoaPod */,
+				6CA9E1B2A5CE64054BC84BF597D4C666 /* ComposeApp */,
 				ED39C638569286489CD697A6C8964146 /* Pods-iosApp */,
+				3DFC8D8368A4CA9CF03AD457958F2C48 /* YandexMapsMobile */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		54279FFD9F7DC03C5092FDAAF4F1D8D9 /* Resources */ = {
+		D8301412B78658156B91AFA1B772E476 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -252,76 +331,88 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6D5B535D06E71479AAE8763DA499ECA7 /* [CP-User] Build MyCocoaPod */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "[CP-User] Build MyCocoaPod";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "                if [ \"YES\" = \"$OVERRIDE_KOTLIN_BUILD_IDE_SUPPORTED\" ]; then\n                  echo \"Skipping Gradle build task invocation due to OVERRIDE_KOTLIN_BUILD_IDE_SUPPORTED environment variable set to \"YES\"\"\n                  exit 0\n                fi\n                set -ev\n                REPO_ROOT=\"$PODS_TARGET_SRCROOT\"\n                \"$REPO_ROOT/../gradlew\" -p \"$REPO_ROOT\" $KOTLIN_PROJECT_PATH:syncFramework                     -Pkotlin.native.cocoapods.platform=$PLATFORM_NAME                     -Pkotlin.native.cocoapods.archs=\"$ARCHS\"                     -Pkotlin.native.cocoapods.configuration=\"$CONFIGURATION\"\n";
-		};
-		ADFE31373F377FE6F3FB2D885237876E /* [CP] Copy dSYMs */ = {
+		50371732F227CDBF1C75C6946814F3ED /* [CP] Copy XCFrameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/MyCocoaPod/MyCocoaPod-copy-dsyms-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/YandexMapsMobile/YandexMapsMobile-xcframeworks-input-files.xcfilelist",
 			);
-			name = "[CP] Copy dSYMs";
+			name = "[CP] Copy XCFrameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/MyCocoaPod/MyCocoaPod-copy-dsyms-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/YandexMapsMobile/YandexMapsMobile-xcframeworks-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/MyCocoaPod/MyCocoaPod-copy-dsyms.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/YandexMapsMobile/YandexMapsMobile-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A364D369B0745E05460E3A93E7DB34E3 /* [CP-User] Build ComposeApp */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] Build ComposeApp";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "                if [ \"YES\" = \"$OVERRIDE_KOTLIN_BUILD_IDE_SUPPORTED\" ]; then\n                  echo \"Skipping Gradle build task invocation due to OVERRIDE_KOTLIN_BUILD_IDE_SUPPORTED environment variable set to \"YES\"\"\n                  exit 0\n                fi\n                set -ev\n                REPO_ROOT=\"$PODS_TARGET_SRCROOT\"\n                \"$REPO_ROOT/../gradlew\" -p \"$REPO_ROOT\" $KOTLIN_PROJECT_PATH:syncFramework                     -Pkotlin.native.cocoapods.platform=$PLATFORM_NAME                     -Pkotlin.native.cocoapods.archs=\"$ARCHS\"                     -Pkotlin.native.cocoapods.configuration=\"$CONFIGURATION\"\n";
+		};
+		A6C691ABBF9D3FBCDCAE55694B6892E6 /* [CP] Copy dSYMs */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ComposeApp/ComposeApp-copy-dsyms-input-files.xcfilelist",
+			);
+			name = "[CP] Copy dSYMs";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ComposeApp/ComposeApp-copy-dsyms-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/ComposeApp/ComposeApp-copy-dsyms.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C7D1D20637F1DA89D69C6261453D652D /* Sources */ = {
+		8DCD6F0FABBAD16C039A66DAB1163829 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D30A8D89765B1EE81158CD2D586449F /* Pods-iosApp-dummy.m in Sources */,
+				9D14347D433ED19198DF2F063B928D48 /* Pods-iosApp-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		684C0B310518D81BF5E33B200459BEFB /* PBXTargetDependency */ = {
+		7C4985CFE1CDA0C7B0518AC81E3875E7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = MyCocoaPod;
-			target = C8B3F643901D6B6256046E79D3327B27 /* MyCocoaPod */;
-			targetProxy = A09630E73AAC571C27850D4FBAC3533D /* PBXContainerItemProxy */;
+			name = ComposeApp;
+			target = 6CA9E1B2A5CE64054BC84BF597D4C666 /* ComposeApp */;
+			targetProxy = 375BB6A5FF952CDFF46C1971FED502C1 /* PBXContainerItemProxy */;
+		};
+		857AF98F569096C74C2234C2DA6AECCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YandexMapsMobile;
+			target = 3DFC8D8368A4CA9CF03AD457958F2C48 /* YandexMapsMobile */;
+			targetProxy = 88DED93ECD9E1C459C718BD9650ACD59 /* PBXContainerItemProxy */;
+		};
+		DA1CB384DD63E317B5311AE1FB051A06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YandexMapsMobile;
+			target = 3DFC8D8368A4CA9CF03AD457958F2C48 /* YandexMapsMobile */;
+			targetProxy = 43EC1FB1D710CEE801EAC64496684EA1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0C6A11A79704E7514C16535BD6559C8C /* Debug */ = {
+		10542E436356D493432D8A236B9D8DF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 078606F7380EA728D38CEED57B88FE38 /* MyCocoaPod.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		32BAB697247A7972716CBB6F98B773A8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 244FC2DAA936A0B07ACEFDC74E2D54B8 /* Pods-iosApp.release.xcconfig */;
+			baseConfigurationReference = E462E23B3674BF94EAB1504D506F2803 /* Pods-iosApp.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -353,20 +444,38 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		7030F5922BD6670B5538C2004F10215F /* Release */ = {
+		464CB54AECF3B22BD11C9DE962E09D19 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 708F342A29B06925C7E18641122FEF39 /* MyCocoaPod.release.xcconfig */;
+			baseConfigurationReference = B23943FD08FDDBF63E2DA178067AAD62 /* YandexMapsMobile.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6994807CFB5807B01B8106F588EDF128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C36E6C74DB85504F986A42A6621F7C15 /* YandexMapsMobile.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -439,6 +548,83 @@
 			};
 			name = Release;
 		};
+		B06F0E06B505DC91F2379A478D14762D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95A02452F292A6A7BEA23A8AD8499BDE /* ComposeApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8173C0D0BB59A8A811A419951BF5390 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 244FC2DAA936A0B07ACEFDC74E2D54B8 /* Pods-iosApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-iosApp/Pods-iosApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iosApp/Pods-iosApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D2321BCF0781392E2CFFFE9F0B571A69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F4566B159EA6BC0608B37DC0821F33D /* ComposeApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		F105DEC13C0AF4AD6927D5D40AF85A30 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -505,45 +691,6 @@
 			};
 			name = Debug;
 		};
-		F6C7FA25B99C8E9BCA6499DD00B0CABB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E462E23B3674BF94EAB1504D506F2803 /* Pods-iosApp.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-iosApp/Pods-iosApp-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-iosApp/Pods-iosApp.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -556,20 +703,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5C87C28CF4ECCFF5776B7D5AC7C99431 /* Build configuration list for PBXNativeTarget "Pods-iosApp" */ = {
+		6AFD3B64C2ABA9DEA984B029A77165BC /* Build configuration list for PBXAggregateTarget "ComposeApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F6C7FA25B99C8E9BCA6499DD00B0CABB /* Debug */,
-				32BAB697247A7972716CBB6F98B773A8 /* Release */,
+				D2321BCF0781392E2CFFFE9F0B571A69 /* Debug */,
+				B06F0E06B505DC91F2379A478D14762D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A0AEF7D525DF3935759C66E098EB911E /* Build configuration list for PBXAggregateTarget "MyCocoaPod" */ = {
+		9985E398945BC2DFD6C8B1DD9EAAAD07 /* Build configuration list for PBXNativeTarget "Pods-iosApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0C6A11A79704E7514C16535BD6559C8C /* Debug */,
-				7030F5922BD6670B5538C2004F10215F /* Release */,
+				10542E436356D493432D8A236B9D8DF3 /* Debug */,
+				B8173C0D0BB59A8A811A419951BF5390 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDCFC218FC9AB45D60898943F33A6F1F /* Build configuration list for PBXAggregateTarget "YandexMapsMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				464CB54AECF3B22BD11C9DE962E09D19 /* Debug */,
+				6994807CFB5807B01B8106F588EDF128 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
