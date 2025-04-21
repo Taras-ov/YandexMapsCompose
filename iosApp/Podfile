@@ -1,5 +1,8 @@
 platform :ios, '15.3'
 
+install! 'cocoapods',
+  :deterministic_uuids => false
+
 target 'iosApp' do
 use_frameworks!
    pod 'ComposeApp', :path => '../composeApp'

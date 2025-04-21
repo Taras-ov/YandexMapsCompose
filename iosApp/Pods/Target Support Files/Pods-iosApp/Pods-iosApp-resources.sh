@@ -97,11 +97,9 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "${PODS_ROOT}/../../composeApp/build/compose/cocoapods/compose-resources"
   install_resource "${PODS_ROOT}/YandexMapsMobile/YandexMapsMobile.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "${PODS_ROOT}/../../composeApp/build/compose/cocoapods/compose-resources"
   install_resource "${PODS_ROOT}/YandexMapsMobile/YandexMapsMobile.bundle"
 fi
 

@@ -46,5 +46,7 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    <key>YANDEX_MAPKIT_API_KEY</key>
+    <string>$(YANDEX_MAPKIT_API_KEY)</string>
 </dict>
 </plist>

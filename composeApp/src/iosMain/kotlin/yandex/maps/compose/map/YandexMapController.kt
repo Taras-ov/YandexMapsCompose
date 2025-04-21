@@ -4,6 +4,7 @@ import cocoapods.YandexMapsMobile.YMKCameraPosition
 import cocoapods.YandexMapsMobile.YMKMapKit
 import cocoapods.YandexMapsMobile.YMKMapView
 import cocoapods.YandexMapsMobile.YMKPoint
+import cocoapods.YandexMapsMobile.setApiKey
 import cocoapods.YandexMapsMobile.sharedInstance
 import kotlinx.cinterop.ExperimentalForeignApi
 import platform.CoreGraphics.CGRectMake
@@ -11,12 +12,12 @@ import platform.UIKit.UIView
 
 actual class YandexMapController {
 
-
     @OptIn(ExperimentalForeignApi::class)
     private var mapView: YMKMapView? = null
 
     @OptIn(ExperimentalForeignApi::class)
     actual fun initializeMap(context: Any?) {
+        YMKMapKit.setApiKey(ApiKeyProvider.yandexMapKitApiKey)
         val frame = CGRectMake(0.0, 0.0, 300.0, 300.0) // Можно будет вынести как параметр
         mapView = YMKMapView(frame = frame)
         YMKMapKit.sharedInstance()

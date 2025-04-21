@@ -1,3 +1,4 @@
 TEAM_ID=
 BUNDLE_ID=yandex.maps.compose.YandexMapsCompose
 APP_NAME=YandexMapsCompose
+YANDEX_MAPKIT_API_KEY=bbedb3e3-bfff-4851-a6fa-defb07120a96

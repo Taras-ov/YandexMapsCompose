@@ -6,11 +6,12 @@ import androidx.activity.compose.setContent
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
 import com.yandex.mapkit.MapKitFactory
+import yandex.maps.compose.map.ApiKeyProvider
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        MapKitFactory.setApiKey("YOUR_API_KEY")
+        MapKitFactory.setApiKey(ApiKeyProvider.yandexMapKitApiKey)
 
         setContent {
             App()
