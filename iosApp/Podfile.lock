@@ -1,16 +1,23 @@
 PODS:
-  - MyCocoaPod (1.0)
+  - ComposeApp (1.0):
+    - YandexMapsMobile (~> 4.14.0-lite)
+  - YandexMapsMobile (4.14.0-navikit)
 
 DEPENDENCIES:
-  - MyCocoaPod (from `/Users/a1/Desktop/repositories/YandexMapsCompose/composeApp/MyCocoaPod.podspec`)
+  - ComposeApp (from `../composeApp`)
+
+SPEC REPOS:
+  trunk:
+    - YandexMapsMobile
 
 EXTERNAL SOURCES:
-  MyCocoaPod:
-    :path: "/Users/a1/Desktop/repositories/YandexMapsCompose/composeApp/MyCocoaPod.podspec"
+  ComposeApp:
+    :path: "../composeApp"
 
 SPEC CHECKSUMS:
-  MyCocoaPod: 6c253848012a533f909cf176cd8d077b4ad3ae89
+  ComposeApp: eae87c0baf548a9abf8e748894a8b17d84eaf725
+  YandexMapsMobile: 2613b6b2f5a91c82cc05f0aff6177c62f47240b1
 
-PODFILE CHECKSUM: 9e228163c5872d03d5f0f654ff29eeea286fb79a
+PODFILE CHECKSUM: cefe794673b135ad85f654c47d80ec2b920c2b99
 
 COCOAPODS: 1.16.2
