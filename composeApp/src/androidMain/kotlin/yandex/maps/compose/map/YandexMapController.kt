@@ -2,6 +2,7 @@ package yandex.maps.compose.map
 
 import android.content.Context
 import android.view.View
+import com.yandex.mapkit.MapKitFactory
 import com.yandex.mapkit.geometry.Point
 import com.yandex.mapkit.map.CameraPosition
 import com.yandex.mapkit.mapview.MapView
@@ -11,8 +12,9 @@ actual class YandexMapController {
 
     actual fun initializeMap(context: Any?) {
         val ctx = context as Context
+        MapKitFactory.initialize(ctx)
+
         mapView = MapView(ctx)
-        mapView?.onStart()
     }
 
     actual fun addMarker(latitude: Double, longitude: Double) {
@@ -26,6 +28,11 @@ actual class YandexMapController {
             15.0f, 0.0f, 0.0f
         )
         mapView?.map?.move(cameraPosition)
+    }
+
+    fun onStart() {
+        MapKitFactory.getInstance().onStart()
+        mapView?.onStart()
     }
 
     fun stopMap() {

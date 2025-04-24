@@ -29,6 +29,11 @@
 	</dict>
 	<key>UILaunchScreen</key>
 	<dict/>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+    </dict>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
@@ -48,5 +53,7 @@
 	</array>
     <key>YANDEX_MAPKIT_API_KEY</key>
     <string>$(YANDEX_MAPKIT_API_KEY)</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Needed to display your location on the map</string>
 </dict>
 </plist>
